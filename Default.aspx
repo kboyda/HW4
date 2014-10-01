@@ -4,14 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title> Net Pay Estimator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div id="main">
     
-        Net Pay Estimator<br />
-        <br />
+        <h1 id="header"> Net Pay Estimator </h1>
         Wage (Hourly):<br />
         <asp:TextBox ID="tbWage" runat="server"></asp:TextBox>
         <br />
